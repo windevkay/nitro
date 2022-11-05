@@ -1,4 +1,4 @@
-use ::nitro::startup::run;
+use nitro::startup::run;
 use std::net::TcpListener;
 
 fn spawn_app() -> String {
