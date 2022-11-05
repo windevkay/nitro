@@ -1,4 +1,4 @@
-use nitro::run;
+use ::nitro::startup::run;
 use std::net::TcpListener;
 
 #[tokio::main]
