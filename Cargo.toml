@@ -13,6 +13,7 @@ path = "src/main.rs"
 name = "nitro"
 
 [dependencies]
+tracing-actix-web = "0.6"
 secrecy = { version = "0.8", features = ["serde"] }
 tracing-log = "0.1"
 tracing-bunyan-formatter = "0.3"
